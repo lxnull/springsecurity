@@ -1,13 +1,13 @@
 spring:
   redis:
-    host: 47.93.49.84
-    port: 6379
-    password: 3333
+    host:
+    port:
+    password:
   datasource:
     url: jdbc:mysql://localhost:3306/security?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: 3333
+    username:
+    password:
 
 mybatis-plus:
   configuration:
